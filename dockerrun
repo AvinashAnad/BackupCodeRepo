@@ -1,0 +1,4 @@
+i used this command
+docker run --rm -v ${PWD}:/pnl_bottomup -w /pnl_bottomup vhr-image python pipelines/download_train_pipeline.py --countries Mexico --dates 2024-10-01
+
+it is working now
